@@ -1,0 +1,29 @@
+.main{
+    background-color: brown;
+    padding: 5px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-container{
+    width: 28%;
+    height: 400px;
+    background-color: aquamarine;
+    margin: 1%;
+    padding: 10px;
+}
+
+
+.image img{
+    height: 250px;
+    width: 415px;
+
+}
+.content{
+    margin-top: 10px;
+}
