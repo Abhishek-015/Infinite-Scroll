@@ -1,54 +1,10 @@
-// // var container = document.getElementById("container");
-
-
-// async function showData(){
-
-
-//     var res = await fetch(`https://picsum.photos/v2/list`)
-//     var data = await res.json()
-    
-//     console.log(data);
-    
-//    var details =  data.map(el=>{
-//         console.log(el)
-//         return `  <div class="image-container" id="image">
-//         <div class="image">
-//           <img src=${el.download_url} alt="" />
-//         </div>
-//         <div class="content">
-//             <h1>${el.author}</h1>
-//             <p>${el.height}</p>
-//             <p>${el.width}</p>
-//         </div>
-//       </div>`
-//     })
-//     container.innerHTML=details
-// }
-
-// showData()
-
-
-
-
 
 
 (function () {
 
-    const quotesEl = document.querySelector('.quotes');
+    const quotesEl = document.querySelector('#container');
     const loaderEl = document.querySelector('.loader');
 
-    // get the quotes from API
-    // const getQuotes = async (page, limit) => {
-    //     const API_URL = `https://api.javascripttutorial.net/v1/quotes/?page=${page}&limit=${limit}`;
-    //     const response = await fetch(API_URL);
-    //     // handle 404
-    //     if (!response.ok) {
-    //         throw new Error(`An error occurred: ${response.status}`);
-    //     }
-    //     return await response.json();
-    // }
-
-    // show the quotes
     const showQuotes = async (page,limit) => {
 
        

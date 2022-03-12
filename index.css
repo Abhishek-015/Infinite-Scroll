@@ -1,5 +1,4 @@
 .main{
-    background-color: brown;
     padding: 5px;
 }
 
@@ -13,7 +12,6 @@
 .image-container{
     width: 28%;
     height: 400px;
-    background-color: aquamarine;
     margin: 1%;
     padding: 10px;
 }
